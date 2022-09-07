@@ -1,0 +1,205 @@
+/* teczilla consulting theme css */
+
+@media screen and (min-width: 992px){
+	.main-navigation #primary-menu {    
+		padding-right: 0px !important;
+		padding-bottom: 10px;
+	}
+}
+
+/* navigation style */
+
+
+ .wp-caption, 
+ .wp-caption-text, .bypostauthor  
+ .alignright, .alignleft,
+ .aligncenter{
+
+ }
+.sub-menu li{
+	padding-bottom: 0px;
+}
+@media screen and (min-width: 992px){
+	.main-navigation a {
+		padding: 10px 15px;
+	}
+	.menu-item-has-children>a:after {	   
+		right: 0px;		
+	}
+}
+
+/* Home slider */
+.home-slider::after {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    opacity: 0.15;
+    background: #000;
+}
+.home-slider .container .slider-caption:after{
+	background-color:transparent !important
+}
+
+
+@media screen and (min-width: 768px){
+	.home-slider .container .slider-caption {
+		padding: 50px 50px 50px;
+		min-width: 800px;		
+	}
+
+	.home-slider .container .slider-caption .slider-title {
+		line-height: 1.4;
+		font-size: 18px;
+		padding-bottom:10px;
+		text-shadow: 0px 2px 7px rgb(0 0 0 / 50%);
+	}
+	.home-slider .slider-caption .slider-description h3{
+		font-size: 74px !important;
+		line-height: 1.4;
+		font-weight: 800;
+		padding-bottom: 15px;
+		text-shadow: 0px 2px 7px rgb(0 0 0 / 50%);	
+	}
+
+
+	.home-slider .slider-btn {
+		padding: 12px 20px;
+		border: none;
+		display: inline-block;
+		text-transform: capitalize;
+		font-size: 15px;
+		font-weight: 500;
+		background: #ffffff;
+		color: #000;
+		transition: all 0.3s ease;
+	}
+}
+.home-slider .slider-caption .slider-description h3:after{
+	height:0px !important;
+}
+@media screen and (max-width: 1440px){
+	.home-slider .container .slider-caption {
+	position: absolute;
+    top: 50%;
+    left: 11%;
+    text-align: left;
+    transform: translate(0%, -50%);
+	}
+}
+@media screen and (max-width: 1024px){
+	.home-slider .container .slider-caption {
+		position: absolute;
+		top: 50%;
+		left: 15%;
+		transform: translate(0%, -50%);
+	}
+}
+@media screen and (max-width: 768px){
+	.home-slider .container .slider-caption {    
+		min-width: 500px;
+	}
+	.home-slider .container .slider-caption .slider-title {
+		line-height: 1.4;
+		font-size: 16px;
+		padding-bottom:10px;
+	}
+	.home-slider .slider-caption .slider-description h3{
+		font-size: 34px !important;
+		line-height: 1.4;
+		padding-bottom: 15px;
+	}
+
+		.home-slider .slider-title{
+
+		display: none;
+	}
+
+	.toolbar-area{
+		display: none;
+	}
+
+}
+
+@media screen and (max-width: 500px){
+	.home-slider .container .slider-caption {  
+		min-width: 300px;    
+	}
+	.home-slider .container .slider-caption .slider-title {
+		line-height: 1.4;
+		font-size: 13px;
+		padding-bottom:10px;
+	}
+	.home-slider .slider-caption .slider-description h3{
+		font-size: 24px !important;
+		line-height: 1.4;
+		padding-bottom: 15px;
+	}
+
+
+
+}
+
+.sec-title .sub-title{
+
+	text-transform: capitalize;
+	    letter-spacing: 1.1px;
+}
+
+.full-width-header .tec-header .menu-area{
+
+	background: transparent !important;
+}
+
+
+
+.home-slider::after{
+
+	background: #000;
+	opacity: 0.48;
+}
+
+.logo-area img{
+
+
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+
+
+.home-slider .slider-caption .slider-description h3{
+
+	word-break: break-word;
+}
+
+.toolbar-contact,.toolbar-sl-share{
+
+	padding-top: 7px;
+}
+
+.comment-respond .comment-form-comment textarea,
+.comment-respond .comment-form-author input,.comment-respond .comment-form-email input,
+.comment-respond .comment-form-url input{
+
+	    box-shadow: 0 5px 15px 5px rgb(0 33 85 / 0%) !important;
+    background: #ebe8e4;
+}
+
+.tec-blog.style1 .blog-wrap .content-part .blog-meta .user-data span,
+.tec-blog.style1 .blog-wrap .content-part .blog-meta .date {
+    font-size: 12px !important;
+}
+
+.tec-blog.style1 .blog-wrap .content-part .title a {
+    font-size: 18px;
+    line-height: 32px;
+    word-break: break-word;
+}
+
+@media screen and (min-width: 992px){
+.main-navigation ul li:hover > ul, .main-navigation ul li.focus > ul {
+    background-color: #000 !important;
+}
+}

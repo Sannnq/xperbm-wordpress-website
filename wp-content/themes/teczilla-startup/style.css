@@ -1,0 +1,372 @@
+/*
+Theme Name: Teczilla startup
+Theme URI: 
+Template: teczilla
+Author: avadantathemes
+Author URI: https://www.avadantathemes.com/
+Description:  Teczilla startup is a child theme of teczilla wordpress theme perfect for startup, finance , startup etc.It is a Very creative, fully customizable and multipurpose theme.Any website you want to make with this theme will look beautiful and compaitable.It has built in typography also dynamic typography also has unlimited color optiopns in it.The theme suitable for saas application website, architecture, interior design, startup, startup, business, decoration, business, furniture, home decor, law firm, startup, insurance, app landing page, it solutions, shop ecommerce, marketing, gym, blog, travel startup, construction,  spa salons, industries, Beauty, photography, and many other websites compatible. Service option has icon and image options. Full Width responsive page layout. SEO optimized pages and fast speed loading.Compatible with gutenberg, elemnetor page builder WooCommerce, contact form 7, Jetpack, Google analytics and so many popular premium & free plugins nicely works with teczilla theme. For more theme information, check out Theme demo here at https://www.avadantathemes.com/demo/teczilla-startup/ and theme instructions here at https://www.avadantathemes.com/documentation/teczilla-free-theme/
+Version: 1.0.2
+Requires at least: 5.0
+Tested up to: 5.8
+Requires PHP: 5.6
+Text Domain: teczilla-startup
+Tags: one-column, two-columns, four-columns, right-sidebar, flexible-header, custom-background, custom-header, custom-menu, editor-style, featured-images, footer-widgets, rtl-language-support, translation-ready, full-width-template, custom-logo, blog, e-commerce, post-formats, theme-options, threaded-comments,  portfolio
+License: GNU General Public License v2 or later
+License URI:  http://www.gnu.org/licenses/gpl-2.0.html/ GPL v3.0 (or later)
+*/
+
+body{
+
+	font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #828282;
+}
+
+p{
+
+    color: #66686f;
+}
+
+.full-width-header .toolbar-area{
+
+    background: transparent !important;
+    margin-top: -7px;
+   margin-bottom: -50px;
+}
+
+
+.blog-wrap{
+
+    border: 2px solid #f2f2f2;
+}
+
+.tec-footer .footer-bottom {
+    padding: 20px 10px !important
+}
+
+.tec-footer .text-right{
+
+    padding-top: 5px;
+}
+
+.full-width-header .toolbar-area .toolbar-sl-share ul li .tec-icons{
+
+color: #000 !important;
+
+}
+
+.full-width-header .toolbar-area .toolbar-contact ul li,
+.full-width-header .toolbar-area .toolbar-contact ul li a,
+.full-width-header .toolbar-area .toolbar-contact ul li i{
+
+    color: #000;
+}
+
+.current_page_item {
+    background-color:transparent !important;
+	
+}
+.full-width-header .toolbar-area .toolbar-sl-share ul li a {
+    background-color: transparent !important;    
+    color: #fff !important;
+	font-size:22px;
+}
+
+.full-width-header .toolbar-area .toolbar-sl-share ul {
+    text-align: right;
+    margin-right: 0;
+}
+
+
+.full-width-header .teczilla-menu-area {
+    position: relative;
+    top: 40px;
+}
+
+
+.full-width-header{
+
+    background: #ebe8e4;
+}
+
+.full-width-header .tec-header {
+    z-index: 99;
+    width: 90%;
+    margin: auto;
+}
+
+.sidebar{
+
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    padding: 26px 30px 10px;
+    border: 1px solid #e4e4e4;
+
+}
+
+.menu>.menu-item>a, .menu .page_item a{
+
+	color: #fff !important;
+}
+
+.readon-arrow{
+
+    padding: 10px 20px;
+    text-decoration: none !important;
+    color: #fff !important;
+    border: 2px solid;
+}
+
+@media screen and (min-width: 992px){
+.sticky {
+    background: #000 !important;
+}
+}
+
+.btn-part{
+
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.tec-about .btn-part{
+
+    text-align: left;
+
+}
+
+.tec-services.style2 .service-wrap {
+    padding: 15px 15px 15px 15px;
+    background: #000000;
+    box-shadow: 0px 14px 30px rgb(193 157 157 / 7%);
+}
+
+.tec-services.style2 .service-wrap .content-part .title a{
+
+    color: #fff !important;
+}
+
+.tec-testimonial.style1 .testi-item {
+    margin-bottom: 30px;
+    border: 2px solid #e9e9e9;
+    padding: 5px 14px 15px 5px;
+}
+
+.btn-part a{
+
+    text-decoration: none !important;
+}
+
+.readon-arrow:after{
+
+    display: none;
+}
+
+.tec-blog.inner .blog-wrap .content-part .title {
+    text-align: center;
+    padding-bottom: 12px;
+}
+
+.teczilla-title{
+	margin-bottom: 0;
+}
+
+.sidebar-widget.widget_block h2{
+
+	color: #1c1b1b;
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 800;
+    position: relative;
+    text-align: left;
+    z-index: 1;
+    padding-bottom: 12px;
+}
+
+.sidebar-widget.widget_block h2:after{
+
+    content: "";
+    clear: both;
+    width: 24px;
+    display: inline-block;
+    height: 3px;
+    margin: 6px;
+}
+
+.tec-breadcrumbs.bg-1{
+
+    background-attachment: unset;
+}
+
+.menu-sticky{
+
+	box-shadow: none;
+        margin-top: -40px !important;
+}
+
+.blog-wrap .content-part .blog-meta {
+    padding-left: 0;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+
+.menu-toggle {
+    background-color: transparent;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #fff;
+    position: absolute;
+    display: none;
+    top: 0;
+    font-size: 14px;
+    right: 20px;
+    font-size: 0.875rem;
+    font-size: 20px;
+    font-weight: 800;
+    /* float: right; */
+    margin-top: -40px;
+    text-shadow: none;
+}
+
+
+@media only screen and (max-width: 991px){
+.main-navigation {
+    padding: 0;
+    margin-top: 0;
+}
+
+.full-width-header .tec-agncy-stick {
+    padding-top: 0;
+}
+}
+
+.carousel-control-next-icon:before,
+.carousel-control-prev-icon:before{
+
+	background: #000 !important;
+    color: #fff;
+}
+
+.home-slider .container .slider-caption .slider-bottom .slider-btn{
+
+    border: none;
+    color: #fff;
+}
+
+.widget_tag_cloud .wp-block-tag-cloud a{
+
+    color: #fff;
+}
+
+.sec-title .sub-title.primary:after{
+
+    display: none;
+}
+
+.nav-links .page-numbers.current {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 19px;
+    height: 36px;
+    padding: 11px 18px 9px 12px;
+    width: 36px;
+    margin: 0 10px 10px 0;
+    overflow: hidden;
+    border: none;
+    position: relative;
+    z-index: 1;
+    transition: all 0.4s ease 0s;
+}
+
+.nav-links .page-numbers {
+    color: #000;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 27px;
+    height: 36px;
+    padding: 6px 15px 16px 13px;
+    width: auto;
+    margin: 0 10px 10px 0;
+    overflow: hidden;
+    border: none !important;
+    position: relative;
+    z-index: 1;
+    transition: all 0.4s ease 0s;
+}
+
+.carousel-control-next-icon:before, .carousel-control-prev-icon:before {
+    background: #fff !important;
+    border: 2px solid #fff;
+    color: #000;
+    border-radius: 50%;
+}
+
+.carousel-control-prev,.carousel-control-next{
+
+    opacity: 0.9;
+}
+
+.sidebar .widget_search{
+
+    padding-top: 16px;
+    padding-bottom: 20px;
+}
+
+.section-xx .blog-wrap {
+    margin-top: 46px;
+    border: none !important;
+    padding: 20px;
+}
+
+.footer-bottom #footer-menu{
+
+    display: inline-flex;
+}
+
+.footer-bottom #footer-menu li {
+    padding-left: 12px;
+}
+
+.logo-area{
+
+    padding-top: 16px;
+    padding-bottom: 3px;
+}
+
+.wgs.comments{
+
+    width: 100%;
+}
+
+.sidebar-widget.widget_archive li:before, 
+.sidebar-widget.widget_categories li:before,
+ .sidebar-widget.widget_meta li:before, 
+ .sidebar-widget .wp-block-archives li:before, 
+ .sidebar-widget .wp-block-categories li:before {
+display: none;
+}
+
+.sidebar-widget.widget_archive li, 
+.sidebar-widget.widget_categories li,
+ .sidebar-widget.widget_meta li, 
+ .sidebar-widget .wp-block-archives li, 
+ .sidebar-widget .wp-block-categories li {
+    padding-left: 0;
+}
+
+.content-part .title a, .content-part .blog-meta a {
+    font-weight: 600;
+}
+
+.tec-startup-stick{
+
+    margin-top: -10px !important;
+}
